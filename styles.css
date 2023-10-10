@@ -1,0 +1,260 @@
+*{
+    
+    margin:o;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+
+  
+    color:black;
+}
+body{
+    background-color:#c1bebe;
+    
+        
+        
+ 
+    }
+.img-fluid{
+width: 200px;
+height: 200px;
+
+}
+header{
+    background-color:#fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 20px 20px 20px;
+    padding: 20px ;
+    font-size: 18px;
+    display: flex;
+ 
+}
+main{
+    margin: 20px 20px 20px 20px;
+    padding: 20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:grey;
+    color:black;
+    
+ 
+}
+.img-cool{
+    width: 90%;
+   
+   margin-bottom: 10px;
+
+
+}
+footer{
+    margin: 20px 20px 20px 20px;
+    padding: 20px ;
+    background-color:grey;
+    text-align: center;
+    border: 2PX SOLID ;
+}
+.seccion-1{
+    text-align: center;
+}
+
+#seccion-principal{
+    background-color:#c1bebe;
+    text-align: center;
+}
+#seccion-principal.section-principal{
+ background-color: aqua;
+}
+p{
+    margin: 20px 20px 20px 20px;
+    padding: 20px ;
+   
+    
+    font-size: larger;
+    font-style:oblique;
+}
+div{
+padding: 2%;
+margin: 10px 10px 10px 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*centro*/
+main section{
+    width: 100%;
+    padding: 20px;
+}
+section.section-carrusel img{
+    width: inherit;
+}
+aside{
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+    margin: 10px;
+    height: 50%;
+  
+    width: 400px;
+    margin: auto;
+    
+}
+#boton__1{
+    margin-bottom: 20px;
+    height:36px;
+    width: 200px;
+    background-color: #2a2727; 
+    color: #fff;
+    border: #000;
+}
+#boton__2{
+    height: 36px;
+    width:200px ;
+    background-color:#2a2727; 
+    color: #fff;
+    border: #000;
+
+}
+#boton__2:hover{
+ 
+    background-color: #333;
+    transition: .8;
+    cursor: pointer;
+
+}
+#boton__1:hover{
+ 
+    background-color: #333;
+    transition: .8;
+    cursor: pointer;
+
+}
+
+
+  /*-------------------------*/
+  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+     text-decoration: none;
+  
+  }
+  
+  
+  
+  header {
+  
+    background-color: #333;
+    color: #fff;
+     padding: 20px;
+     position: relative;
+     
+   display: flex;
+     z-index: 0;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+  
+  }
+  
+   nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 80px;
+  }
+  
+  nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  
+  }
+  
+  nav a:hover {
+  color: #1bf7de;
+  
+  } 
+  .section-2{
+
+    background-color:#c1bebe;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    
+  }
+  .card{
+    background-color:#c1bebe;
+    border: 1px solid #000;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+  }
+  .card_img{
+
+    width: 200px;
+    height: 300px;
+  }
+  h3{
+    display:inline;
+    
+  }
+ 
+  #contacto li a:hover{
+    color: aqua;
+  }
+  .nombre{
+
+height: 100px;
+border: 0;
+  }
+  .menu{
+
+padding: 0px;
+border: 0;
+margin: 10px 10px 10px 10px;
+
+  }
+  @media (max-width: 672px){
+    
+    header{
+       
+        justify-content: center;
+    }
+  }
+
+  
+
+  
+@media(max-width:400px){
+
+
+  .section-1{
+    width: 100%;
+  }
+  .boton_1{
+    display: flex;
+     justify-content: center;
+ }
+}
+
+.BOTONES{
+   background-color: #c1bebe;
+}
+.card-img{
+
+  padding: 0px;
+  width: 270px;
+  border: 0;
+  
+}
+.card-img img{
+  width: 267px;
+  margin: 0px;
+}
+
